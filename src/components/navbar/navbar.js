@@ -14,7 +14,6 @@ export default function Example() {
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
-              <div className="flex justify-between">
                 <div className="flex-shrink-0 flex items-center">
                   <CodeIcon className="block lg:hidden h-8 w-auto" />
                   <CodeIcon className="hidden lg:block h-8 w-auto " />
@@ -46,7 +45,6 @@ export default function Example() {
                     Hire me
                   </a>
                 </div>
-              </div>
 
               <div className="-mr-2 flex items-center sm:hidden">
                 {/* Mobile menu button */}
