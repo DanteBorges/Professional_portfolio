@@ -8,7 +8,13 @@ module.exports = {
     './public/index.html',
   ],
   theme: {
-    extend: {}
+    colors: {
+      'midnightblue': '#2f2e7c',
+      'darkslateblue': '#234894',
+      'steelblue': '#3b85c1',
+      'slategray': '#8f5ba3',
+      'plum': '#cfa6ce',
+    },
   },
   variants: {},
   plugins: []
