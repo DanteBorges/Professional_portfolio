@@ -19,7 +19,7 @@ export default function Example() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block ">Hi,</span>{" "}
+                <span className="block ">Hello,</span>{" "}
                 <span className="block xl:inline">I'am Daniel Borges,</span>{" "}
                 <span className="block text-royalblue xl:inline">
                   web developer
@@ -32,7 +32,7 @@ export default function Example() {
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className=" rounded-lg px-8 py-4 bg-royalblue text-white font-bold flex items-center space-x-3 hover:bg-slategray"
+                    className="flex justify-center rounded-lg px-8 py-4 bg-royalblue text-white font-bold flex items-center space-x-3 hover:bg-slategray"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
