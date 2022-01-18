@@ -17,6 +17,9 @@ export default function Example() {
               <div className="flex-shrink-0 flex items-center">
                 <CodeIcon className="block lg:hidden h-8 w-auto" />
                 <CodeIcon className="hidden lg:block h-8 w-auto " />
+              <p className="ml-5 font-bold text-xl hover:text-midnightblue ">
+                  Daniel Borges
+                </p>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
