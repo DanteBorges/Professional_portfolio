@@ -23,25 +23,26 @@ export default function Example() {
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 <a
                   href="#"
-                  className="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                  className="border-transparent text-black hover:border-slategray hover:text-royalblue inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+
                 >
                   Home
                 </a>
                 <a
                   href="#"
-                  className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                  className="border-transparent text-black hover:border-slategray hover:text-royalblue inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                 >
                   About Me
                 </a>
                 <a
                   href="#"
-                  className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                  className="border-transparent text-black hover:border-slategray hover:text-royalblue inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                 >
                   Projects
                 </a>
                 <a
                   href="#"
-                  className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                  className="border-transparent text-black hover:border-slategray hover:text-royalblue inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                 >
                   Hire me
                 </a>
@@ -64,28 +65,28 @@ export default function Example() {
                 <Disclosure.Button
                   as="a"
                   href="#"
-                  className="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                  className="border-transparent text-black hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   Home
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
                   href="#"
-                  className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                  className="border-transparent text-black hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   About Me
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
                   href="#"
-                  className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                  className="border-transparent text-black hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   Projects
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
                   href="#"
-                  className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                  className="border-transparent text-black hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   Hire me
                 </Disclosure.Button>
