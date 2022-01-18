@@ -32,7 +32,7 @@ export default function Example() {
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className="px-8 py-4 bg-royalblue text-white font-bold flex items-center space-x-3 hover:bg-slategray"
+                    className=" rounded-lg px-8 py-4 bg-royalblue text-white font-bold flex items-center space-x-3 hover:bg-slategray"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
