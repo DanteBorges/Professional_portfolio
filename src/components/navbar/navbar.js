@@ -1,4 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
+import React from 'react'
 import { Disclosure, } from "@headlessui/react";
 import {  MenuIcon, XIcon, CodeIcon } from "@heroicons/react/outline";
 
@@ -6,7 +6,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (

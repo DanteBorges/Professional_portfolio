@@ -1,5 +1,7 @@
+import React from 'react'
 
-export default function Example() {
+
+export default function Hero() {
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
