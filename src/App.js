@@ -1,12 +1,11 @@
 import React from "react";
-import Navbar from "./components/navbar/navbar";
-import Hero from "./components/hero/hero";
+import Home from "./pages/Home/Home";
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
+    <Home/>
     </>
   );
 }
