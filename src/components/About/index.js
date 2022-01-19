@@ -1,7 +1,5 @@
-
-import React from 'react'
-import { CameraIcon } from '@heroicons/react/solid'
-import Myprofile from "../../img/Daniel_photo.jpg"
+import React from "react";
+import Myprofile from "../../img/Daniel_photo.jpg";
 
 export default function About() {
   return (
@@ -34,62 +32,62 @@ export default function About() {
                   height={20}
                   patternUnits="userSpaceOnUse"
                 >
-                  <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                  <rect
+                    x={0}
+                    y={0}
+                    width={4}
+                    height={4}
+                    className="text-gray-200"
+                    fill="currentColor"
+                  />
                 </pattern>
               </defs>
-              <rect width={404} height={384} fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
+              <rect
+                width={404}
+                height={384}
+                fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"
+              />
             </svg>
             <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img className="rounded-lg shadow-lg object-cover object-center w-[1184px] h-[1376px]" src={Myprofile} alt="my_profile_picture"></img>
+                  <img
+                    className="rounded-lg shadow-lg object-cover object-center w-[1184px] h-[1376px]"
+                    src={Myprofile}
+                    alt="my_profile_picture"
+                  ></img>
                 </div>
               </figure>
             </div>
           </div>
           <div className="mt-8 lg:mt-0">
-            <div className="text-base max-w-prose mx-auto lg:max-w-none">
-              <p className="text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
+            <div className="mt-5 prose prose-indigo text-black mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+              <p className="pb-5">
+                I'am Software Developer who enjoys working with web technologies
+                and helping people create/grow their businesses while developing
+                as a professional.
               </p>
-            </div>
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-              <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+              <p className="pb-5">
+                I worked 1 year as a digital analyst and 1 year as a software
+                developer working on the Internal system of Montes Claros State
+                University using PHP and Vue.js
               </p>
-              <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-                fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
+
+              <p className="pb-5">
+                I have an excellent background as a Web Developer along with my
+                academic education in Computer Science and Technology. I studied
+                at the Montes Claros State University (Unimontes), one of the
+                finest colleges in Brazil, and this helped me to understand well
+                the base of programming.
               </p>
-              <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
-              </p>
-              <ul role="list">
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-              </ul>
-              <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-              </p>
-              <h3>How we helped</h3>
-              <p>
-                Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-                lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
-              </p>
-              <p>
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
+              <p className="pb-5">
+                Today I work as a freelancer using JavaScript and its
+                technologies.
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
