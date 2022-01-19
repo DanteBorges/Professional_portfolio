@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { CameraIcon } from '@heroicons/react/solid'
+import Myprofile from "../../img/Daniel_photo.jpg"
 
 export default function About() {
   return (
@@ -41,18 +42,8 @@ export default function About() {
             <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
-                    className="rounded-lg shadow-lg object-cover object-center"
-                    src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80"
-                    alt="Whitney leaning against a railing on a downtown street"
-                    width={1184}
-                    height={1376}
-                  />
+                  <img className="rounded-lg shadow-lg object-cover object-center w-[1184px] h-[1376px]" src={Myprofile} alt="my_profile_picture"></img>
                 </div>
-                <figcaption className="mt-3 flex text-sm text-gray-500">
-                  <CameraIcon className="flex-none w-5 h-5 text-gray-400" aria-hidden="true" />
-                  <span className="ml-2">Photograph by Marcus O’Leary</span>
-                </figcaption>
               </figure>
             </div>
           </div>
