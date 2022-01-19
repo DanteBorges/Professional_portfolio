@@ -1,20 +1,4 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+
 import React from 'react'
 import { CameraIcon } from '@heroicons/react/solid'
 
@@ -25,10 +9,9 @@ export default function About() {
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
           <div>
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Case Study</h2>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Meet Whitney
-            </h3>
+            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl hover:text-slategray  ">
+              About me
+            </h2>
           </div>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
