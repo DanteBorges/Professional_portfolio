@@ -54,10 +54,10 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-royalblue absolute bottom-0 w-full">
-      <div className="max-w-2xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8">
+    <footer className="bg-royalblue relative bottom-0 w-full ">
+      <div className="max-w-2xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-4">
         <nav
-          className="-mx-5 -my-2 flex flex-wrap justify-center"
+          className="-mx-5 -my-2 flex flex-wrap justify-center sm:px-4 "
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
