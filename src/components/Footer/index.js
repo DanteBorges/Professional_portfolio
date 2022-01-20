@@ -11,7 +11,7 @@ const navigation = {
  
     {
       name: "Instagram",
-      href: "https://www.instagram.com/danielborggs/",
+      href: "https://www.instagram.com/danielborggs/", rel:"noopener",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -24,7 +24,7 @@ const navigation = {
     },
     {
       name: "Linkedin",
-      href: "https://www.linkedin.com/in/daniel-fborges/",
+      href: "https://www.linkedin.com/in/daniel-fborges/",rel:"noopener",
       icon: (props) => (
         <svg
           class="w-6 h-6 text-white hover:text-blizzard fill-current"
@@ -38,7 +38,7 @@ const navigation = {
 
     {
       name: "GitHub",
-      href: "https://github.com/DanteBorges",
+      href: "https://github.com/DanteBorges",rel:"noopener",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -77,7 +77,7 @@ export default function Footer() {
               key={item.name}
               href={item.href}
               className="text-white hover:text-blizzard"
-              target="_blank"
+              target="_blank" rel="noopener"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
