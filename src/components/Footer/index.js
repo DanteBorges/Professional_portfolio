@@ -27,7 +27,7 @@ const navigation = {
       href: "https://www.linkedin.com/in/daniel-fborges/",
       icon: (props) => (
         <svg
-          class="w-6 h-6 text-black hover:text-white fill-current"
+          class="w-6 h-6 text-white hover:text-blizzard fill-current"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
         >
@@ -64,7 +64,7 @@ export default function Footer() {
             <div key={item.name} className="px-5 py-2">
               <a
                 href={item.href}
-                className="text-base text-black hover:text-white text-sm font-medium"
+                className="text-base text-white hover:text-blizzard text-sm font-medium"
               >
                 {item.name}
               </a>
@@ -76,7 +76,7 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
-              className="text-black hover:text-white"
+              className="text-white hover:text-blizzard"
               target="_blank"
             >
               <span className="sr-only">{item.name}</span>
