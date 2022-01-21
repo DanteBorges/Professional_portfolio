@@ -55,7 +55,7 @@ export default function About() {
                   <img
                     className="rounded-lg shadow-lg object-cover object-center w-[1184px] h-[1376px]"
                     src={Myprofile}
-                    alt="my_profile_picture"
+                    alt="Photo_of_me_wearing_glasses"
                   ></img>
                 </div>
               </figure>
