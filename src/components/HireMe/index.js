@@ -1,7 +1,6 @@
+import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 
-import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
-
-export default function Example() {
+export default function HireMe() {
   return (
     <div className="bg-gray-100">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -10,7 +9,10 @@ export default function Example() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="relative overflow-hidden py-10 px-6 bg-indigo-700 sm:px-10 xl:p-12">
-              <div className="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
+              <div
+                className="absolute inset-0 pointer-events-none sm:hidden"
+                aria-hidden="true"
+              >
                 <svg
                   className="absolute inset-0 w-full h-full"
                   width={343}
@@ -106,49 +108,37 @@ export default function Example() {
                   </defs>
                 </svg>
               </div>
-              <h3 className="text-lg font-medium text-white">Contact information</h3>
+              <h3 className="text-lg font-medium text-white">
+                Contact information
+              </h3>
               <p className="mt-6 text-base text-indigo-50 max-w-3xl">
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor
-                lacus arcu.
+                Interested in my work? Contact me and let's talk :)
               </p>
               <dl className="mt-8 space-y-6">
                 <dt>
                   <span className="sr-only">Phone number</span>
                 </dt>
                 <dd className="flex text-base text-indigo-50">
-                  <PhoneIcon className="flex-shrink-0 w-6 h-6 text-indigo-200" aria-hidden="true" />
-                  <span className="ml-3">+1 (555) 123-4567</span>
+                  <PhoneIcon
+                    className="flex-shrink-0 w-6 h-6 text-indigo-200"
+                    aria-hidden="true"
+                  />
+                  <span className="ml-3">+55 (38) 98833-0330</span>
                 </dd>
                 <dt>
                   <span className="sr-only">Email</span>
                 </dt>
                 <dd className="flex text-base text-indigo-50">
-                  <MailIcon className="flex-shrink-0 w-6 h-6 text-indigo-200" aria-hidden="true" />
-                  <span className="ml-3">support@workcation.com</span>
+                  <MailIcon
+                    className="flex-shrink-0 w-6 h-6 text-indigo-200"
+                    aria-hidden="true"
+                  />
+                  <span className="ml-3">daniel@lecode.dev</span>
                 </dd>
               </dl>
               <ul role="list" className="mt-8 flex space-x-12">
                 <li>
-                  <a className="text-indigo-200 hover:text-indigo-100" href="#">
-                    <span className="sr-only">Facebook</span>
-                    <svg
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6"
-                      aria-hidden="true"
-                    >
-                      <path
-                        d="M22.258 1H2.242C1.556 1 1 1.556 1 2.242v20.016c0 .686.556 1.242 1.242 1.242h10.776v-8.713h-2.932V11.39h2.932V8.887c0-2.906 1.775-4.489 4.367-4.489 1.242 0 2.31.093 2.62.134v3.037l-1.797.001c-1.41 0-1.683.67-1.683 1.653v2.168h3.362l-.438 3.396h-2.924V23.5h5.733c.686 0 1.242-.556 1.242-1.242V2.242C23.5 1.556 22.944 1 22.258 1"
-                        fill="currentColor"
-                      />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a className="text-indigo-200 hover:text-indigo-100" href="#">
+                  <a className="text-indigo-200 hover:text-indigo-100" href= "https://www.instagram.com/danielborggs/" rel="noopener" target="_blank">
                     <span className="sr-only">GitHub</span>
                     <svg
                       width={24}
@@ -166,9 +156,11 @@ export default function Example() {
                     </svg>
                   </a>
                 </li>
+
                 <li>
-                  <a className="text-indigo-200 hover:text-indigo-100" href="#">
-                    <span className="sr-only">Twitter</span>
+                  <a className="text-indigo-200 hover:text-indigo-100" href="https://www.upwork.com/freelancers/~013f21e3623726319d" rel="noopener" target="_blank">
+                  <span className="sr-only">Upwork</span>
+
                     <svg
                       width={24}
                       height={24}
@@ -179,21 +171,46 @@ export default function Example() {
                       aria-hidden="true"
                     >
                       <path
-                        d="M7.548 22.501c9.056 0 14.01-7.503 14.01-14.01 0-.213 0-.425-.015-.636A10.02 10.02 0 0024 5.305a9.828 9.828 0 01-2.828.776 4.94 4.94 0 002.165-2.724 9.867 9.867 0 01-3.127 1.195 4.929 4.929 0 00-8.391 4.491A13.98 13.98 0 011.67 3.9a4.928 4.928 0 001.525 6.573A4.887 4.887 0 01.96 9.855v.063a4.926 4.926 0 003.95 4.827 4.917 4.917 0 01-2.223.084 4.93 4.93 0 004.6 3.42A9.88 9.88 0 010 20.289a13.941 13.941 0 007.548 2.209"
+                        d="M13.593,20.5h-2.681c-0.151,0-0.294-0.068-0.389-0.187c-0.095-0.117-0.131-0.271-0.1-0.419l1.553-7.172 c-0.312-0.399-0.614-0.833-0.902-1.298c-0.367,2.678-2.699,4.749-5.513,4.749C2.495,16.174,0,13.713,0,10.688V4 c0-0.276,0.224-0.5,0.5-0.5h2.622c0.276,0,0.5,0.224,0.5,0.5v6.688c0.001,1.043,0.872,1.894,1.939,1.896 c1.068-0.002,1.939-0.853,1.94-1.896V4c0-0.276,0.224-0.5,0.5-0.5h2.622c0.222,0,0.417,0.146,0.479,0.358 c0.468,1.58,1.171,3.195,1.979,4.562c0.994-2.202,2.881-3.486,5.205-3.486c3.15,0,5.712,2.519,5.712,5.614 c0,3.102-2.562,5.625-5.712,5.625c-1.109,0-2.178-0.26-3.188-0.773l-1.019,4.705C14.032,20.336,13.828,20.5,13.593,20.5z M11.532,19.5h1.657l1.077-4.975c0.035-0.159,0.145-0.292,0.294-0.355c0.15-0.063,0.322-0.051,0.46,0.037 c1.023,0.642,2.122,0.967,3.267,0.967c2.599,0,4.712-2.075,4.712-4.625c0-2.544-2.114-4.614-4.712-4.614 c-2.182,0-3.905,1.401-4.61,3.749c-0.056,0.185-0.212,0.321-0.403,0.351c-0.192,0.029-0.381-0.054-0.49-0.214 c-1.018-1.502-1.93-3.423-2.53-5.32H8.502v6.188c-0.002,1.595-1.321,2.894-2.94,2.896c-1.619-0.002-2.937-1.301-2.939-2.895V4.5H1 v6.188c0,2.474,2.046,4.486,4.561,4.486c2.516,0,4.563-2.013,4.563-4.486V9.568c0-0.232,0.161-0.435,0.388-0.487 c0.229-0.053,0.46,0.06,0.562,0.269c0.549,1.129,1.165,2.115,1.83,2.932c0.096,0.117,0.133,0.272,0.101,0.421L11.532,19.5z M18.288,13.589c-1.106,0-2.202-0.425-3.257-1.263c-0.149-0.118-0.218-0.312-0.178-0.497l0.218-1.011 c0.39-2.113,1.561-3.312,3.217-3.312c1.704,0,3.09,1.364,3.09,3.041C21.378,12.225,19.991,13.589,18.288,13.589z M15.897,11.729 c0.794,0.571,1.597,0.86,2.39,0.86c1.152,0,2.09-0.916,2.091-2.041c0-1.125-0.938-2.041-2.09-2.041 c-1.466,0-2.021,1.342-2.229,2.468L15.897,11.729z"
                         fill="currentColor"
-                      />
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a className="text-indigo-200 hover:text-indigo-100" href="https://github.com/DanteBorges">
+                    <span className="sr-only">GitHub</span>
+                    <svg
+                     width={24}
+                     height={24}
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     className="w-6 h-6"
+                     aria-hidden="true"
+                    >
+                      <path d="M 5 3 C 3.895 3 3 3.895 3 5 L 3 19 C 3 20.105 3.895 21 5 21 L 19 21 C 20.105 21 21 20.105 21 19 L 21 5 C 21 3.895 20.105 3 19 3 L 5 3 z M 5 5 L 19 5 L 19 19 L 5 19 L 5 5 z M 7.7792969 6.3164062 C 6.9222969 6.3164062 6.4082031 6.8315781 6.4082031 7.5175781 C 6.4082031 8.2035781 6.9223594 8.7167969 7.6933594 8.7167969 C 8.5503594 8.7167969 9.0644531 8.2035781 9.0644531 7.5175781 C 9.0644531 6.8315781 8.5502969 6.3164062 7.7792969 6.3164062 z M 6.4765625 10 L 6.4765625 17 L 9 17 L 9 10 L 6.4765625 10 z M 11.082031 10 L 11.082031 17 L 13.605469 17 L 13.605469 13.173828 C 13.605469 12.034828 14.418109 11.871094 14.662109 11.871094 C 14.906109 11.871094 15.558594 12.115828 15.558594 13.173828 L 15.558594 17 L 18 17 L 18 13.173828 C 18 10.976828 17.023734 10 15.802734 10 C 14.581734 10 13.930469 10.406562 13.605469 10.976562 L 13.605469 10 L 11.082031 10 z" fill="currentColor"></path>
                     </svg>
                   </a>
                 </li>
               </ul>
             </div>
 
-            {/* Contact form */}
             <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-              <h3 className="text-lg font-medium text-gray-900">Send us a message</h3>
-              <form action="#" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <h3 className="text-lg font-medium text-gray-900">
+                Send us a message
+              </h3>
+              <form
+                action="#"
+                method="POST"
+                className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+              >
                 <div>
-                  <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
+                  <label
+                    htmlFor="first-name"
+                    className="block text-sm font-medium text-gray-900"
+                  >
                     First name
                   </label>
                   <div className="mt-1">
@@ -207,7 +224,10 @@ export default function Example() {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="last-name" className="block text-sm font-medium text-gray-900">
+                  <label
+                    htmlFor="last-name"
+                    className="block text-sm font-medium text-gray-900"
+                  >
                     Last name
                   </label>
                   <div className="mt-1">
@@ -221,7 +241,10 @@ export default function Example() {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-900">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-900"
+                  >
                     Email
                   </label>
                   <div className="mt-1">
@@ -236,7 +259,10 @@ export default function Example() {
                 </div>
                 <div>
                   <div className="flex justify-between">
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-900">
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-gray-900"
+                    >
                       Phone
                     </label>
                     <span id="phone-optional" className="text-sm text-gray-500">
@@ -255,7 +281,10 @@ export default function Example() {
                   </div>
                 </div>
                 <div className="sm:col-span-2">
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-900">
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-medium text-gray-900"
+                  >
                     Subject
                   </label>
                   <div className="mt-1">
@@ -269,7 +298,10 @@ export default function Example() {
                 </div>
                 <div className="sm:col-span-2">
                   <div className="flex justify-between">
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-900">
+                    <label
+                      htmlFor="message"
+                      className="block text-sm font-medium text-gray-900"
+                    >
                       Message
                     </label>
                     <span id="message-max" className="text-sm text-gray-500">
@@ -283,7 +315,7 @@ export default function Example() {
                       rows={4}
                       className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
                       aria-describedby="message-max"
-                      defaultValue={''}
+                      defaultValue={""}
                     />
                   </div>
                 </div>
@@ -301,5 +333,5 @@ export default function Example() {
         </div>
       </div>
     </div>
-  )
+  );
 }
