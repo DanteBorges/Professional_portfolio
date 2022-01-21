@@ -1,6 +1,20 @@
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
+import emailjs from "emailjs-com";
+import React, { useRef } from 'react';
 
 export default function HireMe() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_f2ne3is', 'template_lqnvp9h', form.current, 'user_vVXH8VL0YnDG8Gx4iRCqj')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+};
   return (
     <div className="bg-gray-100">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -138,7 +152,12 @@ export default function HireMe() {
               </dl>
               <ul role="list" className="mt-8 flex space-x-12">
                 <li>
-                  <a className="text-indigo-200 hover:text-indigo-100" href= "https://www.instagram.com/danielborggs/" rel="noopener" target="_blank">
+                  <a
+                    className="text-indigo-200 hover:text-indigo-100"
+                    href="https://www.instagram.com/danielborggs/"
+                    rel="noopener"
+                    target="_blank"
+                  >
                     <span className="sr-only">GitHub</span>
                     <svg
                       width={24}
@@ -158,8 +177,13 @@ export default function HireMe() {
                 </li>
 
                 <li>
-                  <a className="text-indigo-200 hover:text-indigo-100" href="https://www.upwork.com/freelancers/~013f21e3623726319d" rel="noopener" target="_blank">
-                  <span className="sr-only">Upwork</span>
+                  <a
+                    className="text-indigo-200 hover:text-indigo-100"
+                    href="https://www.upwork.com/freelancers/~013f21e3623726319d"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <span className="sr-only">Upwork</span>
 
                     <svg
                       width={24}
@@ -179,18 +203,24 @@ export default function HireMe() {
                 </li>
 
                 <li>
-                  <a className="text-indigo-200 hover:text-indigo-100" href="https://github.com/DanteBorges">
+                  <a
+                    className="text-indigo-200 hover:text-indigo-100"
+                    href="https://github.com/DanteBorges"
+                  >
                     <span className="sr-only">GitHub</span>
                     <svg
-                     width={24}
-                     height={24}
-                     viewBox="0 0 24 24"
-                     fill="none"
-                     xmlns="http://www.w3.org/2000/svg"
-                     className="w-6 h-6"
-                     aria-hidden="true"
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-6 h-6"
+                      aria-hidden="true"
                     >
-                      <path d="M 5 3 C 3.895 3 3 3.895 3 5 L 3 19 C 3 20.105 3.895 21 5 21 L 19 21 C 20.105 21 21 20.105 21 19 L 21 5 C 21 3.895 20.105 3 19 3 L 5 3 z M 5 5 L 19 5 L 19 19 L 5 19 L 5 5 z M 7.7792969 6.3164062 C 6.9222969 6.3164062 6.4082031 6.8315781 6.4082031 7.5175781 C 6.4082031 8.2035781 6.9223594 8.7167969 7.6933594 8.7167969 C 8.5503594 8.7167969 9.0644531 8.2035781 9.0644531 7.5175781 C 9.0644531 6.8315781 8.5502969 6.3164062 7.7792969 6.3164062 z M 6.4765625 10 L 6.4765625 17 L 9 17 L 9 10 L 6.4765625 10 z M 11.082031 10 L 11.082031 17 L 13.605469 17 L 13.605469 13.173828 C 13.605469 12.034828 14.418109 11.871094 14.662109 11.871094 C 14.906109 11.871094 15.558594 12.115828 15.558594 13.173828 L 15.558594 17 L 18 17 L 18 13.173828 C 18 10.976828 17.023734 10 15.802734 10 C 14.581734 10 13.930469 10.406562 13.605469 10.976562 L 13.605469 10 L 11.082031 10 z" fill="currentColor"></path>
+                      <path
+                        d="M 5 3 C 3.895 3 3 3.895 3 5 L 3 19 C 3 20.105 3.895 21 5 21 L 19 21 C 20.105 21 21 20.105 21 19 L 21 5 C 21 3.895 20.105 3 19 3 L 5 3 z M 5 5 L 19 5 L 19 19 L 5 19 L 5 5 z M 7.7792969 6.3164062 C 6.9222969 6.3164062 6.4082031 6.8315781 6.4082031 7.5175781 C 6.4082031 8.2035781 6.9223594 8.7167969 7.6933594 8.7167969 C 8.5503594 8.7167969 9.0644531 8.2035781 9.0644531 7.5175781 C 9.0644531 6.8315781 8.5502969 6.3164062 7.7792969 6.3164062 z M 6.4765625 10 L 6.4765625 17 L 9 17 L 9 10 L 6.4765625 10 z M 11.082031 10 L 11.082031 17 L 13.605469 17 L 13.605469 13.173828 C 13.605469 12.034828 14.418109 11.871094 14.662109 11.871094 C 14.906109 11.871094 15.558594 12.115828 15.558594 13.173828 L 15.558594 17 L 18 17 L 18 13.173828 C 18 10.976828 17.023734 10 15.802734 10 C 14.581734 10 13.930469 10.406562 13.605469 10.976562 L 13.605469 10 L 11.082031 10 z"
+                        fill="currentColor"
+                      ></path>
                     </svg>
                   </a>
                 </li>
@@ -202,8 +232,7 @@ export default function HireMe() {
                 Send us a message
               </h3>
               <form
-                action="#"
-                method="POST"
+              ref={form} onSubmit={sendEmail}
                 className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
               >
                 <div>
@@ -322,6 +351,7 @@ export default function HireMe() {
                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="submit"
+                    value="Send"
                     className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:w-auto"
                   >
                     Submit
