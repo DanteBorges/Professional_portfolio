@@ -22,12 +22,12 @@ export default function HireMe() {
   };
   return (
     <div className="bg-gray-100">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        <div className="relative bg-white shadow-xl">
+      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 	">
+        <div className="relative bg-white shadow-xl rounded-md	">
           <h2 className="sr-only">Contact me</h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3">
-            <div className="relative overflow-hidden py-10 px-6 bg-royalblue sm:px-10 xl:p-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 ">
+            <div className="relative overflow-hidden py-10 px-6 bg-royalblue sm:px-10 xl:p-12 rounded-md	">
               <div
                 className="absolute inset-0 pointer-events-none sm:hidden"
                 aria-hidden="true"
@@ -99,6 +99,8 @@ export default function HireMe() {
                   <a
                     className="text-indigo-200 hover:text-indigo-100"
                     href="https://github.com/DanteBorges"
+                    target="_blank"
+
                   >
                     <span className="sr-only">Linkedin</span>
                     <LinkedinIcon />
@@ -120,6 +122,7 @@ export default function HireMe() {
                   <label
                     htmlFor="first-name"
                     className="block text-sm font-medium text-gray-900"
+                    
                   >
                     First name
                   </label>
@@ -128,6 +131,7 @@ export default function HireMe() {
                       type="text"
                       name="first-name"
                       id="first-name"
+                      required="required"
                       autoComplete="given-name"
                       className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-midnightblue focus:border-royalblue border-gray-300 rounded-md"
                     />
@@ -145,6 +149,7 @@ export default function HireMe() {
                       type="text"
                       name="last-name"
                       id="last-name"
+                      required="required"
                       autoComplete="family-name"
                       className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-midnightblue focus:border-royalblue border-gray-300 rounded-md"
                     />
@@ -162,6 +167,7 @@ export default function HireMe() {
                       id="email"
                       name="email"
                       type="email"
+                      required="required"
                       autoComplete="email"
                       className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-midnightblue focus:border-royalblue border-gray-300 rounded-md"
                     />
@@ -201,6 +207,7 @@ export default function HireMe() {
                     <input
                       type="text"
                       name="subject"
+                      required="required"
                       id="subject"
                       className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                     />
@@ -221,6 +228,7 @@ export default function HireMe() {
                   <div className="mt-1">
                     <textarea
                       id="message"
+                      required="required"
                       name="message"
                       rows={4}
                       className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
@@ -228,6 +236,27 @@ export default function HireMe() {
                       defaultValue={""}
                     />
                   </div>
+                 
+                  <div>
+                  <label
+                    htmlFor="city"
+                    className="opacity-0 absolute top-0 left-0 h-0 w-0 -z-50"
+                    
+                  >
+                    Your city
+                  </label>
+                  <div className="mt-1">
+                    <input
+                      type="text"
+                      name="city"
+                      id="city"
+                      autoComplete="given-name"
+                      className="opacity-0 absolute top-0 left-0 h-0 w-0 -z-9999"
+                    />
+                  </div>
+                </div>
+                
+
                 </div>
                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <button
