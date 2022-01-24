@@ -9,11 +9,7 @@ export default function HireMe() {
     e.preventDefault();
 
     emailjs.sendForm('service_f2ne3is', 'template_lqnvp9h', form.current, 'user_vVXH8VL0YnDG8Gx4iRCqj')
-    .then((result) => {
-        console.log(result.text);
-    }, (error) => {
-        console.log(error.text);
-    });
+ 
 };
   return (
     <div className="bg-gray-100">
@@ -22,7 +18,7 @@ export default function HireMe() {
           <h2 className="sr-only">Contact me</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
-            <div className="relative overflow-hidden py-10 px-6 bg-indigo-700 sm:px-10 xl:p-12">
+            <div className="relative overflow-hidden py-10 px-6 bg-royalblue sm:px-10 xl:p-12">
               <div
                 className="absolute inset-0 pointer-events-none sm:hidden"
                 aria-hidden="true"
@@ -248,7 +244,7 @@ export default function HireMe() {
                       name="first-name"
                       id="first-name"
                       autoComplete="given-name"
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-midnightblue focus:border-royalblue border-gray-300 rounded-md"
                     />
                   </div>
                 </div>
@@ -265,7 +261,7 @@ export default function HireMe() {
                       name="last-name"
                       id="last-name"
                       autoComplete="family-name"
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-midnightblue focus:border-royalblue border-gray-300 rounded-md"
                     />
                   </div>
                 </div>
@@ -282,7 +278,7 @@ export default function HireMe() {
                       name="email"
                       type="email"
                       autoComplete="email"
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-midnightblue focus:border-royalblue border-gray-300 rounded-md"
                     />
                   </div>
                 </div>
