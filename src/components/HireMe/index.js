@@ -233,7 +233,7 @@ export default function HireMe() {
                       required="required"
                       name="message"
                       rows={4}
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md resize-none"
                       aria-describedby="message-max"
                       defaultValue={""}
                     />
