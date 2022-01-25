@@ -1,5 +1,10 @@
 import React from "react";
 
+import Lave from "../../img/Lave.png";
+import Mwttrainer from "../../img/mwttrainer.png";
+import Netflix from "../../img/netflix.png";
+
+
 export default function Portifolio() {
   return (
     <>
@@ -20,7 +25,7 @@ export default function Portifolio() {
             <div className="w-full md:w-1/2 xl:w-1/3 px-4">
               <div className="bg-white rounded-lg overflow-hidden mb-10">
                 <img
-                  src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                  src={Lave}
                   alt="image"
                   className="w-full"
                 />
@@ -70,7 +75,7 @@ export default function Portifolio() {
             <div className="w-full md:w-1/2 xl:w-1/3 px-4">
               <div className="bg-white rounded-lg overflow-hidden mb-10">
                 <img
-                  src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
+                  src={Mwttrainer}
                   alt="image"
                   className="w-full"
                 />
@@ -120,9 +125,9 @@ export default function Portifolio() {
             <div className="w-full md:w-1/2 xl:w-1/3 px-4">
               <div className="bg-white rounded-lg overflow-hidden mb-10">
                 <img
-                  src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
+                  src={Netflix}
                   alt="image"
-                  className="w-full"
+                  className="w-full h-full"
                 />
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
