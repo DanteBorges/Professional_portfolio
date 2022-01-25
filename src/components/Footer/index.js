@@ -4,15 +4,12 @@ import { ReactComponent as LinkedinIcon } from "../../img/linkedin.svg";
 import { ReactComponent as UpworkIcon } from "../../img/upwork.svg";
 import { ReactComponent as GithubIcon } from "../../img/github.svg";
 
-
-
-
 const navigation = {
   main: [
-    { name: "Home", href: "#" },
-    { name: "About me", href: "#" },
-    { name: "Projects", href: "#" },
-    { name: "Hire me", href: "#" },
+    { name: "Home", href: "#home" },
+    { name: "About me", href: "#about" },
+    { name: "Projects", href: "#projects" },
+    { name: "Hire me", href: "#hireme" },
   ],
   social: [
  
