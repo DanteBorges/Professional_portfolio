@@ -1,11 +1,11 @@
 module.exports = {
   purge: [
-    './src/**/*.html',
-    './src/**/*.js',
-    './src/**/*.jsx',
-    './src/**/*.ts',
-    './src/**/*.tsx',
-    './public/index.html',
+    "./src/**/*.html",
+    "./src/**/*.js",
+    "./src/**/*.jsx",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./public/index.html",
   ],
   theme: {
     extend: {
@@ -17,9 +17,9 @@ module.exports = {
         'slategray': '#8f5ba3',
         'plum': '#cfa6ce',
         'blizzard':'#E0E0E0',
-      }
+      },
      },
   },
   variants: {},
-  plugins: []
-}
+  plugins: [],
+};
