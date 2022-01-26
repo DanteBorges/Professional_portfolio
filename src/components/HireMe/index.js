@@ -12,15 +12,16 @@ export default function HireMe() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    form.current.reset();
+    alert("Your email has been sent :))");
     emailjs.sendForm(
       process.env.REACT_APP_SERVICE_ID,
       process.env.REACT_APP_TEMPLATE_ID,
       form.current,
       process.env.REACT_APP_USER_ID
     );
+  
 
-    form.current.reset();
-    alert("Your email has been sent :))");
   };
   return (
     <div className="bg-gray-100">
