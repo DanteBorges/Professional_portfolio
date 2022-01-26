@@ -6,22 +6,21 @@ import { ReactComponent as UpworkIcon } from "../../img/upwork.svg";
 import { ReactComponent as LinkedinIcon } from "../../img/linkedin.svg";
 import { ReactComponent as Triangle } from "../../img/triangle.svg";
 import { ReactComponent as TriangleResponsive } from "../../img/triangle_responsive.svg";
-require("dotenv").config();
-
 
 export default function HireMe() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    form.current.reset();
-    alert("Your email has been sent :))");
     emailjs.sendForm(
       process.env.REACT_APP_SERVICE_ID,
       process.env.REACT_APP_TEMPLATE_ID,
       form.current,
-      process.env.REACT_APP_USER_ID 
+      process.env.REACT_APP_USER_ID
     );
+
+    form.current.reset();
+    alert("Your email has been sent :))");
   };
   return (
     <div className="bg-gray-100">
@@ -275,3 +274,4 @@ export default function HireMe() {
     </div>
   );
 }
+require("dotenv").config();
