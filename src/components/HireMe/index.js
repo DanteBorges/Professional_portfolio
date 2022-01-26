@@ -6,25 +6,24 @@ import { ReactComponent as UpworkIcon } from "../../img/upwork.svg";
 import { ReactComponent as LinkedinIcon } from "../../img/linkedin.svg";
 import { ReactComponent as Triangle } from "../../img/triangle.svg";
 import { ReactComponent as TriangleResponsive } from "../../img/triangle_responsive.svg";
+require("dotenv").config();
+
 
 export default function HireMe() {
   const form = useRef();
 
- 
-
   const sendEmail = (e) => {
     e.preventDefault();
-    form.current.reset()
-    alert("Your email has been sent :))")
+    form.current.reset();
+    alert("Your email has been sent :))");
     emailjs.sendForm(
-      "service_f2ne3is",
-      "template_lqnvp9h",
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
       form.current,
-      "user_vVXH8VL0YnDG8Gx4iRCqj"
+      process.env.REACT_APP_USER_ID 
     );
   };
   return (
-    
     <div className="bg-gray-100">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 	">
         <div className="relative bg-white shadow-xl rounded-md	">
@@ -105,7 +104,6 @@ export default function HireMe() {
                     href="#https://github.com/DanteBorges"
                     target="_blank"
                     rel="noopener"
-
                   >
                     <span className="sr-only">Linkedin</span>
                     <LinkedinIcon />
@@ -265,7 +263,6 @@ export default function HireMe() {
                     value="Send"
                     className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:w-auto"
                     onclick="myFunction()"
-                    
                   >
                     Submit
                   </button>
