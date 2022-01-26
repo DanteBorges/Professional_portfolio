@@ -4,7 +4,6 @@ import Lave from "../../img/Lave.png";
 import Mwttrainer from "../../img/mwttrainer.png";
 import Netflix from "../../img/netflix.png";
 
-
 export default function Portifolio() {
   return (
     <>
@@ -26,16 +25,15 @@ export default function Portifolio() {
               <div className="bg-white rounded-lg overflow-hidden mb-10">
                 <img
                   src={Lave}
-                  alt="image"
-                  className="w-full"
+                  alt="Lave website home screen"
+                  className="w-full h-1/2"
                 />
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
-                    <a
-                      href="javascript:void(0)"
+                    <p
                       className="
                         font-semibold
-                        text-dark text-xl
+                         text-xl
                         sm:text-[22px]
                         md:text-xl
                         lg:text-[22px]
@@ -43,27 +41,29 @@ export default function Portifolio() {
                         2xl:text-[22px]
                         mb-4
                         block
-                        hover:text-primary
+                        text-royalblue
                         "
                     >
-                      50+ Best creative website themes & templates
-                    </a>
+                      Lave web site
+                    </p>
                   </h3>
-                  <p className="text-base text-body-color leading-relaxed mb-7">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                    elit. Lorem consectetur adipiscing elit.
+                  <p className="text-base text-black leading-relaxed mb-7">
+                    Wash laundry landing page
                   </p>
                   <a
-                    href="javascript:void(0)"
+                    href="https://lave-lave.vercel.app/"
+                    target={"_blank"}
+                    without
+                    rel="noreferrer"
                     className="
                      inline-block
                      py-2
                      px-7
-                     border border-[#E5E7EB]
+                     border border-black
                      rounded-full
                      text-base text-body-color
                      font-medium
-                     hover:border-primary hover:bg-primary hover:text-white
+                     hover:border-royalblue hover:bg-royalblue text-black hover:text-white
                      transition
                      "
                   >
@@ -72,48 +72,49 @@ export default function Portifolio() {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div className="w-full  md:w-1/2 xl:w-1/3 px-4">
               <div className="bg-white rounded-lg overflow-hidden mb-10">
                 <img
                   src={Mwttrainer}
-                  alt="image"
-                  className="w-full"
+                  alt="Mwttrainer website home screen"
+                  className="w-full "
                 />
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
-                    <a
-                      href="javascript:void(0)"
+                    <p
                       className="
-                        font-semibold
-                        text-dark text-xl
-                        sm:text-[22px]
-                        md:text-xl
-                        lg:text-[22px]
-                        xl:text-xl
-                        2xl:text-[22px]
-                        mb-4
-                        block
-                        hover:text-primary
-                        "
+                      font-semibold
+                      text-xl
+                     sm:text-[22px]
+                     md:text-xl
+                     lg:text-[22px]
+                     xl:text-xl
+                     2xl:text-[22px]
+                     mb-4
+                     block
+                     text-royalblue
+                     "
                     >
-                      The ultimate UX and UI guide to card design
-                    </a>
+                      MWT Trainer
+                    </p>
                   </h3>
-                  <p className="text-base text-body-color leading-relaxed mb-7">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                    elit. Lorem consectetur adipiscing elit.
+                  <p className="text-base text-black leading-relaxed mb-7">
+                    MWT Trainer gym web page
                   </p>
                   <a
-                    href="javascript:void(0)"
+                    href="https://danteborges.github.io/MWT_Trainer//"
+                    target={"_blank"}
+                    without
+                    rel="noreferrer"
                     className="
                      inline-block
                      py-2
                      px-7
-                     border border-[#E5E7EB]
+                     border border-black
                      rounded-full
                      text-base text-body-color
                      font-medium
-                     hover:border-primary hover:bg-primary hover:text-white
+                     hover:border-royalblue hover:bg-royalblue text-black hover:text-white
                      transition
                      "
                   >
@@ -126,44 +127,45 @@ export default function Portifolio() {
               <div className="bg-white rounded-lg overflow-hidden mb-10">
                 <img
                   src={Netflix}
-                  alt="image"
+                  alt="Mwttrainer website home screen"
                   className="w-full h-full"
                 />
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
-                    <a
-                      href="javascript:void(0)"
+                    <p
                       className="
-                        font-semibold
-                        text-dark text-xl
-                        sm:text-[22px]
-                        md:text-xl
-                        lg:text-[22px]
-                        xl:text-xl
-                        2xl:text-[22px]
-                        mb-4
-                        block
-                        hover:text-primary
-                        "
+                      font-semibold
+                      text-xl
+                     sm:text-[22px]
+                     md:text-xl
+                     lg:text-[22px]
+                     xl:text-xl
+                     2xl:text-[22px]
+                     mb-4
+                     block
+                     text-royalblue
+                     "
                     >
-                      Creative Card Component designs graphic elements
-                    </a>
+                      Netflix Clone
+                    </p>
                   </h3>
-                  <p className="text-base text-body-color leading-relaxed mb-7">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                    elit. Lorem consectetur adipiscing elit.
+                  <p className="text-base text-black leading-relaxed mb-7">
+                  Replica of netflix layout
                   </p>
                   <a
-                    href="javascript:void(0)"
+                    href="https://netflix-clone-omega-neon.vercel.app/"
+                    target={"_blank"}
+                    without
+                    rel="noreferrer"
                     className="
                      inline-block
                      py-2
                      px-7
-                     border border-[#E5E7EB]
+                     border border-black
                      rounded-full
                      text-base text-body-color
                      font-medium
-                     hover:border-primary hover:bg-primary hover:text-white
+                     hover:border-royalblue hover:bg-royalblue text-black hover:text-white
                      transition
                      "
                   >
