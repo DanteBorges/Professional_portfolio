@@ -10,14 +10,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        midnightblue: "#2f2e7c",
-        royalblue: "#4f46e5",
-        darkslateblue: "#234894",
-        steelblue: "#3b85c1",
-        slategray: "#8f5ba3",
-        plum: "#cfa6ce",
+        'midnightblue': '#2f2e7c',
+        'royalblue':'#4f46e5',
+        'darkslateblue': '#234894',
+        'steelblue': '#3b85c1',
+        'slategray': '#8f5ba3',
+        'plum': '#cfa6ce',
+        'blizzard':'#E0E0E0',
       },
-    },
+     },
   },
   variants: {},
   plugins: [],
