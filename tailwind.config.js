@@ -17,8 +17,8 @@ module.exports = {
         'slategray': '#8f5ba3',
         'plum': '#cfa6ce',
         'oldgray':'#f3f4f6',
-
-      }
+        'blizzard':'#E0E0E0',
+      },
      },
   },
   variants: {},
