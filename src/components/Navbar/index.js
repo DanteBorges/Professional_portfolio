@@ -2,9 +2,6 @@ import React from 'react'
 import { Disclosure, } from "@headlessui/react";
 import {  MenuIcon, XIcon, CodeIcon } from "@heroicons/react/outline";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function Navbar() {
   return (
@@ -12,7 +9,7 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className="w-full mx-auto px-4 sm:px-6 lg:px-32 bg-white fixed w-screen	z-50 shadow-md">
-            <div className="flex justify-between px-15 h-16">
+            <div className="flex justify-between sm:px-16 lg:px-44 h-16 bg-white">
               <div className="flex-shrink-0 flex items-center">
                 <CodeIcon className="block lg:hidden h-8 w-auto" />
                 <CodeIcon className="hidden lg:block h-8 w-auto " />
