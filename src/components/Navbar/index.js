@@ -11,7 +11,7 @@ export default function Navbar() {
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
         <>
-          <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 bg-white fixed w-screen	z-50">
+          <div className="w-full mx-auto px-4 sm:px-6 lg:px-32 bg-white fixed w-screen	z-50 shadow-md">
             <div className="flex justify-between px-15 h-16">
               <div className="flex-shrink-0 flex items-center">
                 <CodeIcon className="block lg:hidden h-8 w-auto" />
