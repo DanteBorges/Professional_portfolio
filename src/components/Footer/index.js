@@ -38,7 +38,7 @@ const navigation = {
     },
     {
       name: "Upwork",
-      href: "https://github.com/DanteBorges",rel:"noopener",
+      href: "https://www.upwork.com/freelancers/~013f21e3623726319d",rel:"noopener",
       icon: (props) => (
       <UpworkIcon {...props}/>
       ),

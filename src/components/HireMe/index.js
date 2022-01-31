@@ -75,7 +75,7 @@ export default function HireMe() {
                 <li>
                   <a
                     className="text-indigo-200 hover:text-indigo-100"
-                    href="#https://www.instagram.com/danielborggs/"
+                    href="https://github.com/DanteBorges"
                     rel="noopener"
                     target="_blank"
                   >
@@ -87,7 +87,7 @@ export default function HireMe() {
                 <li>
                   <a
                     className="text-indigo-200 hover:text-indigo-100"
-                    href="#https://www.upwork.com/freelancers/~013f21e3623726319d"
+                    href="https://www.upwork.com/freelancers/~013f21e3623726319d"
                     rel="noopener"
                     target="_blank"
                   >
@@ -100,7 +100,7 @@ export default function HireMe() {
                 <li>
                   <a
                     className="text-indigo-200 hover:text-indigo-100"
-                    href="#https://github.com/DanteBorges"
+                    href="https://www.linkedin.com/in/daniel-fborges/"
                     target="_blank"
                     rel="noopener"
                   >
