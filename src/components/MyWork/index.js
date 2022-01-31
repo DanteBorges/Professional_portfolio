@@ -7,13 +7,15 @@ import OPPIcon from "../../img/OPP.png";
 export default function Mywork() {
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-oldgray">
         <div className="  container px-6 py-10 mx-auto">
-          <h1 className="text-6x1 font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
-            <span className="hover:delay-150 hover:text-royalblue transition delay-150 duration-300">
-              My Works
+      <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+          <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl  hover:text-royalblue ease-in duration-300 ">
+            <span className="border-b-2 border-transparent hover:border-b-2 hover:border-royalblue duration-400">
+              My works
             </span>
-          </h1>
+          </h2>
+        </div>
 
           <p className="mt-4 text-gray-600 xl:mt-6 ">
             Things I've done or learned during my journey as an information
