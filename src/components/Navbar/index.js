@@ -61,28 +61,28 @@ export default function Navbar() {
               <div className="pt-2 pb-3 space-y-1">
                 <Disclosure.Button
                   as="a"
-                  href="#"
+                  href="#home"
                   className="border-transparent text-black hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   Home
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
-                  href="#"
+                  href="#about"
                   className="border-transparent text-black hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   About Me
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
-                  href="#"
+                  href="#projects"
                   className="border-transparent text-black hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   Projects
                 </Disclosure.Button>
                 <Disclosure.Button
                   as="a"
-                  href="#"
+                  href="#hireme"
                   className="border-transparent text-black hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
                   Hire me
