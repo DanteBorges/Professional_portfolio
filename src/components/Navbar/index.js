@@ -5,11 +5,11 @@ import {  MenuIcon, XIcon, CodeIcon } from "@heroicons/react/outline";
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className=" shadow">
       {({ open }) => (
         <>
-          <div className="w-full mx-auto px-4 sm:px-6 lg:px-32 bg-white fixed w-screen	z-50 shadow-md">
-            <div className="flex justify-between sm:px-16 lg:px-44 h-16 bg-white">
+          <div className="w-full mx-auto px-4 sm:px-6 lg:px-32 bg-white fixed z-50 shadow-md">
+            <div className="flex justify-between sm:px-16 xl:px-44 h-16 bg-white">
               <div className="flex-shrink-0 flex items-center">
                 <CodeIcon className="block lg:hidden h-8 w-auto" />
                 <CodeIcon className="hidden lg:block h-8 w-auto " />
