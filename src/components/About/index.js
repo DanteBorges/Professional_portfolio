@@ -3,7 +3,7 @@ import Myprofile from "../../img/Daniel_photo.jpg";
 
 export default function About() {
   return (
-    <div className="bg-white overflow-hidden">
+    <div id="about"className="bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:py-1.52 sm:px-6 lg:px-8 ">
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">

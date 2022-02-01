@@ -5,3 +5,10 @@
 /* purgecss end ignore */
 
 @tailwind utilities;
+
+@layer base{
+*{
+    scroll-behavior: smooth;
+
+}
+}
