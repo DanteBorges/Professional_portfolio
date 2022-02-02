@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from "react";
+import Typical from "react-typical";
 
 export default function Hero() {
   return (
@@ -27,14 +27,17 @@ export default function Hero() {
                   web developer
                 </span>
               </h1>
-              <p className="mt-3 text-base text-slategray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Front End Developer / JavaScrip Expert
-              </p>
+              <Typical
+                className="mt-3 text-base text-slategray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                steps={["Front-end Developer", 1000, "JavaScript Expert", 500]}
+                loop={Infinity}
+                
+              />
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
-                    className="flex justify-center rounded-lg px-8 py-4 bg-royalblue text-white font-bold flex items-center space-x-3 hover:bg-slategray"
+                    href="#projects"
+                    className="flex transition delay-150  justify-center rounded-lg px-8 py-4 bg-royalblue text-white font-bold  items-center space-x-3 hover:bg-slategray"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
