@@ -36,8 +36,8 @@ export default function Hero() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
-                    className="flex justify-center rounded-lg px-8 py-4 bg-royalblue text-white font-bold flex items-center space-x-3 hover:bg-slategray"
+                    href="#projects"
+                    className="flex transition delay-150  justify-center rounded-lg px-8 py-4 bg-royalblue text-white font-bold  items-center space-x-3 hover:bg-slategray"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
