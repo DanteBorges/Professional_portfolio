@@ -7,8 +7,8 @@ import OPPIcon from "../../img/OPP.png";
 export default function Mywork() {
   return (
     <>
-      <section className="bg-oldgray">
-        <div className="  container px-6 py-10 mx-auto">
+      <section id="projects" className="bg-oldgray">
+        <div className="container px-6 pt-20 pb-5 mx-auto">
       <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
           <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl  hover:text-royalblue ease-in duration-300 ">
             <span className="border-b-2 border-transparent hover:border-b-2 hover:border-royalblue duration-400">
