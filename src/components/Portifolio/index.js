@@ -14,11 +14,13 @@ export default function Portifolio() {
 
       <section className="px-6 py-10 mx-auto bg-oldgray">
         <div className="container ">
-          <h1 className=" pb-5 font-semibold text-gray-800 capitalize lg:text-4xl ">
-            <span className="hover:delay-150 hover:text-royalblue transition delay-150 duration-300">
-              My Works
+        <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none pb-10">
+          <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl  hover:text-royalblue ease-in duration-300 ">
+            <span className="border-b-2 border-transparent hover:border-b-2 hover:border-royalblue duration-400">
+              Projects
             </span>
-          </h1>
+          </h2>
+        </div>
 
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 xl:w-1/3 px-4">
