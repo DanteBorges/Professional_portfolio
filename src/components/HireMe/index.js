@@ -6,24 +6,36 @@ import { ReactComponent as Triangle } from "../../img/triangle.svg";
 import { ReactComponent as TriangleResponsive } from "../../img/triangle_responsive.svg";
 import emailjs from "emailjs-com";
 import React, { useRef } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function HireMe() {
   const form = useRef();
 
-  const sendEmail = (e) => {
+
+  const sendEmail = async(e) => {
     e.preventDefault();
-    emailjs.sendForm(
+    await emailjs.sendForm(
       process.env.REACT_APP_SERVICE_ID,
       process.env.REACT_APP_TEMPLATE_ID,
       form.current,
       process.env.REACT_APP_USER_ID
     );
-    form.current.reset();
-    alert("Your email has been sent :))");
+    
+    toast.success('Email sent successfully, thank you!!!', {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      });
 
+    form.current.reset();
   };
   return (
-    <div id="hireme"className="bg-gray-100">
+    <div id="hireme" className="bg-gray-100">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 	">
         <div className="relative bg-white shadow-xl rounded-md	">
           <h2 className="sr-only">Contact me</h2>
@@ -261,10 +273,10 @@ export default function HireMe() {
                     type="submit"
                     value="Send"
                     className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:w-auto"
-                    onclick="myFunction()"
                   >
                     Submit
                   </button>
+                
                 </div>
               </form>
             </div>
@@ -275,4 +287,3 @@ export default function HireMe() {
   );
 }
 require("dotenv").config();
-
