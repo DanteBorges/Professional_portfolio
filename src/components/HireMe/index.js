@@ -21,11 +21,7 @@ export default function HireMe() {
       process.env.REACT_APP_TEMPLATE_ID,
       form.current,
       process.env.REACT_APP_USER_ID
-    );}
-    catch(error){
-      console.log("error ->",error)
-    }
-    
+    );
     toast.success('Email sent successfully, thank you!!!', {
       position: "bottom-right",
       autoClose: 5000,
@@ -35,6 +31,19 @@ export default function HireMe() {
       draggable: true,
       progress: undefined,
       });
+  
+  }
+    catch(error){
+      toast.error('Failed to send email!!', {
+        position: "bottom-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+    }
 
     form.current.reset();
   };
