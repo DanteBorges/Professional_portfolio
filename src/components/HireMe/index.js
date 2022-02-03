@@ -15,12 +15,16 @@ export default function HireMe() {
 
   const sendEmail = async(e) => {
     e.preventDefault();
+    try {
     await emailjs.sendForm(
       process.env.REACT_APP_SERVICE_ID,
       process.env.REACT_APP_TEMPLATE_ID,
       form.current,
       process.env.REACT_APP_USER_ID
-    );
+    );}
+    catch(error){
+      console.log("error ->",error)
+    }
     
     toast.success('Email sent successfully, thank you!!!', {
       position: "bottom-right",
