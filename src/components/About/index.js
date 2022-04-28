@@ -49,6 +49,7 @@ export default function About() {
               <p className="pb-5">
                 Today I continue studying and working with the JavaScript
                 language for the Haus technology studio.
+
               </p>
             </div>
           </div>
