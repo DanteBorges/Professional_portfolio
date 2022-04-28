@@ -101,7 +101,7 @@ export default function HireMe() {
                   <a
                     className="text-indigo-200 hover:text-indigo-100"
                     href="https://github.com/DanteBorges"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <span className="sr-only">GitHub</span>
@@ -113,7 +113,7 @@ export default function HireMe() {
                   <a
                     className="text-indigo-200 hover:text-indigo-100"
                     href="https://www.upwork.com/freelancers/~013f21e3623726319d"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <span className="sr-only">Upwork</span>
@@ -127,7 +127,7 @@ export default function HireMe() {
                     className="text-indigo-200 hover:text-indigo-100"
                     href="https://www.linkedin.com/in/daniel-fborges/"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                   >
                     <span className="sr-only">Linkedin</span>
                     <LinkedinIcon />
