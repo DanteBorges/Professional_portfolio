@@ -3,7 +3,7 @@ import Myprofile from "../../img/Daniel_photo.jpg";
 
 export default function About() {
   return (
-    <div id="about"className="bg-white overflow-hidden">
+    <div id="about" className="bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:py-1.52 sm:px-6 lg:px-8 ">
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
@@ -30,26 +30,22 @@ export default function About() {
           <div className="mt-8 lg:mt-0">
             <div className="mt-5 prose prose-indigo text-black mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <p className="pb-5">
-                I'am Software Developer who enjoys working with web technologies
-                and helping people create/grow their businesses while developing
-                as a professional.
+                I'm a software developer who loves to work and study web
+                technologies and help people create/grow their businesses while
+                developing as a professional.
               </p>
               <p className="pb-5">
-                I worked 1 year as a digital analyst and 1 year as a software
-                developer working on the Internal system of Montes Claros State
-                University using PHP and Vue.js
+                I worked one year as a digital analyst and one year as a
+                software developer working on the internal system of the State
+                University of Montes Claros.
               </p>
 
               <p className="pb-5">
                 I have an excellent background as a Web Developer along with my
-                academic education in Computer Science and Technology. I studied
-                at the Montes Claros State University (Unimontes), one of the
-                finest colleges in Brazil, and this helped me to understand well
-                the base of programming.
-              </p>
-              <p className="pb-5">
-                Today I work as a freelancer using JavaScript and its
-                technologies.
+                academic background in Computer Science and Technology. I
+                studied at the State University of Montes Claros (Unimontes),
+                one of the best colleges in Brazil, and this helped me to
+                understand the basics of programming well.
               </p>
             </div>
           </div>
