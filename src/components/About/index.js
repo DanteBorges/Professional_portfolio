@@ -3,8 +3,8 @@ import Myprofile from "../../img/Daniel_photo.jpg";
 
 export default function About() {
   return (
-    <div id="about" className="bg-white overflow-hidden">
-      <div className="relative max-w-7xl mx-auto py-16 px-4 sm:py-1.52 sm:px-6 lg:px-8 ">
+    <div id="about" >
+      <div className="relative max-w-7xl mx-auto py-16 px-4 sm:py-1.52 sm:px-6 lg:px-8">
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
           <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl  hover:text-royalblue ease-in duration-300 ">
@@ -27,7 +27,7 @@ export default function About() {
               </figure>
             </div>
           </div>
-          <div className="mt-8 lg:mt-0">
+          <div className="mt-8 lg:mt-0 ">
             <div className="mt-5 prose prose-indigo text-black mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <p className="pb-5">
                 I'm a software developer who enjoys working with web

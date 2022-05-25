@@ -8,7 +8,7 @@ export default function Mywork() {
   return (
     <>
       <section id="projects" >
-        <div className="container px-6 pt-20 pb-5 mx-auto bg-oldgray">
+        <div className="relative max-w-7xl mx-auto py-16 px-4 sm:py-1.52 sm:px-6 lg:px-8">
           <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
             <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl  hover:text-royalblue ease-in duration-300 ">
               <span className="border-b-2 border-transparent hover:border-b-2 hover:border-royalblue duration-400">
@@ -35,7 +35,6 @@ export default function Mywork() {
               <h1 className="text-2xl font-semibold text-black capitalize dark:text-white">
                 Estúdio Haus
               </h1>
-
               <p className="text-gray-500 dark:text-gray-300">
                 Front-end developer focused on developing graphical interfaces
                 for software, websites and applications. Creating professional
