@@ -22,16 +22,15 @@ export default function Hero() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block ">Hello,</span>{" "}
-                <span className="block xl:inline">I'am Daniel Borges,</span>{" "}
+                <span className="block xl:inline">I'm Daniel Borges,</span>{" "}
                 <span className="block text-royalblue xl:inline">
-                  web developer
+                  Web Developer
                 </span>
               </h1>
               <Typical
                 className="mt-3 text-base text-slategray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
                 steps={["Front-end Developer", 1000, "JavaScript Expert", 500]}
                 loop={Infinity}
-                
               />
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
