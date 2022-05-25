@@ -48,9 +48,9 @@ export default function HireMe() {
     form.current.reset();
   };
   return (
-    <div id="hireme" className="bg-gray-100">
+    <div id="hireme" >
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 	">
-        <div className="relative bg-white shadow-xl rounded-md	">
+        <div className="relative bg-gray-100 shadow-xl rounded-md	">
           <h2 className="sr-only">Contact me</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 ">
@@ -101,7 +101,7 @@ export default function HireMe() {
                   <a
                     className="text-indigo-200 hover:text-indigo-100"
                     href="https://github.com/DanteBorges"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <span className="sr-only">GitHub</span>
@@ -113,7 +113,7 @@ export default function HireMe() {
                   <a
                     className="text-indigo-200 hover:text-indigo-100"
                     href="https://www.upwork.com/freelancers/~013f21e3623726319d"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <span className="sr-only">Upwork</span>
@@ -127,7 +127,7 @@ export default function HireMe() {
                     className="text-indigo-200 hover:text-indigo-100"
                     href="https://www.linkedin.com/in/daniel-fborges/"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                   >
                     <span className="sr-only">Linkedin</span>
                     <LinkedinIcon />
@@ -137,7 +137,7 @@ export default function HireMe() {
             </div>
 
             <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-              <h3 className="text-lg font-medium text-gray-900">
+              <h3 className="text-lg font-medium text-black">
                 Send me a message
               </h3>
               <form
@@ -148,7 +148,7 @@ export default function HireMe() {
                 <div>
                   <label
                     htmlFor="first-name"
-                    className="block text-sm font-medium text-gray-900"
+                    className="block text-sm font-medium text-black"
                   >
                     First name
                   </label>

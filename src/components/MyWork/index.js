@@ -2,27 +2,45 @@ import React from "react";
 import LeCodeIcon from "../../img/LeCode.png";
 import UnimontesIcon from "../../img/Unimontes.png";
 import OPPIcon from "../../img/OPP.png";
-
+import HausIcon from "../../img/haus.jpg";
 
 export default function Mywork() {
   return (
     <>
-      <section id="projects" className="bg-oldgray">
-        <div className="container px-6 pt-20 pb-5 mx-auto">
-      <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
-          <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl  hover:text-royalblue ease-in duration-300 ">
-            <span className="border-b-2 border-transparent hover:border-b-2 hover:border-royalblue duration-400">
-              My works
-            </span>
-          </h2>
-        </div>
+      <section id="projects" >
+        <div className="relative max-w-7xl mx-auto py-16 px-4 sm:py-1.52 sm:px-6 lg:px-8">
+          <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl  hover:text-royalblue ease-in duration-300 ">
+              <span className="border-b-2 border-transparent hover:border-b-2 hover:border-royalblue duration-400">
+                My works
+              </span>
+            </h2>
+          </div>
 
           <p className="mt-4 text-gray-600 xl:mt-6 ">
             Things I've done or learned during my journey as an information
             technology professional.
           </p>
 
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-2">
+            <div className="p-8 space-y-3 border-2 border-royalblue dark:border-blue-300 rounded-xl">
+              <div className="inline-block ">
+                <img
+                  src={HausIcon}
+                  alt="Estúdio Haus icon miniature version "
+                  className="w-20 h-20 rounded-lg"
+                />
+              </div>
+
+              <h1 className="text-2xl font-semibold text-black capitalize dark:text-white">
+                Estúdio Haus
+              </h1>
+              <p className="text-gray-500 dark:text-gray-300">
+                Front-end developer focused on developing graphical interfaces
+                for software, websites and applications. Creating professional
+                designers to provide the best possible user experience.
+              </p>
+            </div>
 
             <div className="p-8 space-y-3 border-2 border-royalblue dark:border-blue-300 rounded-xl">
               <div className="inline-block ">
@@ -41,7 +59,6 @@ export default function Mywork() {
                 modern websites and applications.
               </p>
             </div>
-
 
             <div className="p-8 space-y-3 border-2 border-royalblue dark:border-blue-300 rounded-xl">
               <div className="inline-block ">
@@ -71,7 +88,7 @@ export default function Mywork() {
                 />
               </div>
               <h1 className="text-2xl font-semibold text-black capitalize dark:text-white">
-              Opportunity Soluções Digitais
+                Opportunity Soluções Digitais
               </h1>
               <p className="text-gray-500 dark:text-gray-300">
                 Freelance front-end web and software developer specializing in
