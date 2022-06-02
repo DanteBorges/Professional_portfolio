@@ -1,5 +1,6 @@
 import React from "react";
 import Myprofile from "../../img/Daniel_photo.jpg";
+import Tecnology from "../Tecnology";
 
 export default function About() {
   return (
@@ -52,6 +53,7 @@ export default function About() {
 
               </p>
             </div>
+            <Tecnology/>
           </div>
         </div>
       </div>
